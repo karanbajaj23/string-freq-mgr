@@ -1,14 +1,14 @@
-#### Project
+## Project
 String frequency manager - A SpringBoot application
 
-#### Objectives
+### Objectives
 Use JAVA Spring Boot to build an application with the following requirements -
 
 Design and implement a small SaaS called String Frequency Manager.
 
 The SFM shall process log files in a configurable local folder and keep track of how many times a particular string has appeared in those log files, called frequency of string. It shall also provide an API endpoint for the end user to make use of this frequency of string.
 
-## About the log file
+### About the log file
 The log file for the String Frequency Manager is generated with each row of data in the following format:
 {timestamp_in_epoch_millis}, {string}
 
@@ -32,7 +32,7 @@ Construct the SaaS with the following requirements and constraints:
 ● No special authentication is needed to the API endpoint, assuming that it will only be
 called by another internal system located within the same network.
 
-#### Skills covered
+## Skills covered
 
 - Java core (data structures, Collection API, etc)
 - Java concurrency (threads, high level wrappers for dealing with thread pools, dead locks, race conditions, locks, etc)
