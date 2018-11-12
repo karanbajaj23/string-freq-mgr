@@ -24,11 +24,11 @@ Construct the SaaS with the following requirements and constraints:
   - the caller can only send a string of up to 40 characters
   - The API shall return a json in this format: {“response”: “true|false”}
     If the string appears more than 5 times in the last 24 hours,
-      return {“response”: “false”}
+      ``` return {“response”: “false”} ```
     Else
-      return {“response”: “true”}
+      ``` return {“response”: “true”} ```
   - The API input is appended to the string of the URL as part of the GET parameter, in following way:
-    http://{domain_name}/isStringValid?string={string}
+    > http://{domain_name}/isStringValid?string={string}
 4. No special authentication is needed to the API endpoint, assuming that it will only be
 called by another internal system located within the same network.
 
